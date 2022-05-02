@@ -1,0 +1,197 @@
+/*VARIAVEIS */
+$purple-bg: #290742;
+$dark-bg: #170027;
+$button-bg: #9e6dc2;
+$white: #fff;
+$light-purple: #fbf6ff;
+$green: #4fff4b;
+
+$font-content: "Roboto", sans-serif;
+$font-title: "Poppins", sans-serif;
+/*FIM DAS VARIAVEIS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: $purple-bg;
+  border-bottom: 5px solid $green;
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    padding: 4vh 20vh;
+    ul {
+      list-style: none;
+      display: flex;
+      padding-top: 1vh;
+      li {
+        margin: 5px;
+        a {
+          text-decoration: none;
+          font-family: "Roboto", sans-serif;
+          color: $white;
+        }
+      }
+    }
+    .button {
+      display: flex;
+      width: 25vh;
+      input {
+        height: 60%;
+        background-color: $dark-bg;
+        border-style: none;
+        border-radius: 5px 0px 0px 5px;
+        width: 80%;
+      }
+      ::placeholder {
+        color: $light-purple;
+        font-size: 1.5vh;
+        padding: 2vh;
+      }
+
+      button {
+        height: 60%;
+        background-color: $button-bg;
+        border-style: none;
+        width: 20%;
+        border-radius: 0px 5px 5px 0px;
+      }
+    }
+  }
+  .header-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 4vh 20vh;
+    .header-section-text {
+      width: 45%;
+      h2 {
+        color: $button-bg;
+        font-size: clamp(3vh, 4vh, 4vh);
+        font-family: $font-title;
+        margin-bottom: 2vh;
+      }
+      h4 {
+        color: $light-purple;
+        font-size: clamp(1vh, 1.7vh, 2vh);
+        font-family: $font-content;
+        margin-bottom: 2vh;
+      }
+      h3 a {
+        text-decoration: none;
+        color: $button-bg;
+        font-family: $font-title;
+        font-size: clamp(1vh, 1.7vh, 2vh);
+      }
+    }
+    .header-section-image {
+      img {
+        height: 35vh;
+      }
+    }
+  }
+}
+
+main {
+  .section-1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 5vh 20vh;
+    .grid-item-1 {
+      height: 100%;
+      grid-row: 1 / span 2;
+      p {
+        font-family: $font-content;
+        font-size: 1.7vh;
+        margin: 10px 0;
+      }
+      h3 {
+        color: $button-bg;
+        font-family: $font-content;
+        font-size: 2.5vh;
+      }
+      img {
+        height: 35vh;
+      }
+    }
+    .grid-item-2 {
+      p {
+        font-family: $font-content;
+        font-size: 1.7vh;
+        margin: 10px 0;
+      }
+      h3 {
+        color: $button-bg;
+        font-family: $font-content;
+        font-size: 2.5vh;
+      }
+      border-bottom: 3px solid $light-purple;
+    }
+
+    .grid-item-3 {
+      p {
+        font-family: $font-content;
+        font-size: 1.7vh;
+        margin: 10px 0;
+      }
+      h3 {
+        color: $button-bg;
+        font-family: $font-content;
+        font-size: 2.5vh;
+      }
+    }
+  }
+  .section-2 {
+    display: flex;
+    padding: 5vh 20vh;
+    justify-content: space-between;
+    .flex-item-1 {
+      p {
+        font-family: $font-content;
+        font-size: 1.7vh;
+        margin: 10px 0;
+      }
+      h3 {
+        color: $button-bg;
+        font-family: $font-content;
+        font-size: 2.5vh;
+      }
+      img {
+        height: 35vh;
+      }
+    }
+    .flex-item-2 {
+      p {
+        font-family: $font-content;
+        font-size: 1.7vh;
+        margin: 10px 0;
+      }
+      h3 {
+        color: $button-bg;
+        font-family: $font-content;
+        font-size: 2.5vh;
+      }
+      img {
+        height: 35vh;
+      }
+    }
+    .flex-item-3 {
+      p {
+        font-family: $font-content;
+        font-size: 1.7vh;
+        margin: 10px 0;
+      }
+      h3 {
+        color: $button-bg;
+        font-family: $font-content;
+        font-size: 2.5vh;
+      }
+      img {
+        height: 35vh;
+      }
+    }
+  }
+}

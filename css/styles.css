@@ -1,0 +1,246 @@
+/*VARIAVEIS */
+/*FIM DAS VARIAVEIS */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  background-color: #290742;
+  border-bottom: 5px solid #4fff4b;
+}
+
+header .nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 15vh;
+  padding: 4vh 20vh;
+}
+
+header .nav-bar ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1vh;
+}
+
+header .nav-bar ul li {
+  margin: 5px;
+}
+
+header .nav-bar ul li a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+
+header .nav-bar .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 25vh;
+}
+
+header .nav-bar .button input {
+  height: 60%;
+  background-color: #170027;
+  border-style: none;
+  border-radius: 5px 0px 0px 5px;
+  width: 80%;
+}
+
+header .nav-bar .button ::-webkit-input-placeholder {
+  color: #fbf6ff;
+  font-size: 1.5vh;
+  padding: 2vh;
+}
+
+header .nav-bar .button :-ms-input-placeholder {
+  color: #fbf6ff;
+  font-size: 1.5vh;
+  padding: 2vh;
+}
+
+header .nav-bar .button ::-ms-input-placeholder {
+  color: #fbf6ff;
+  font-size: 1.5vh;
+  padding: 2vh;
+}
+
+header .nav-bar .button ::placeholder {
+  color: #fbf6ff;
+  font-size: 1.5vh;
+  padding: 2vh;
+}
+
+header .nav-bar .button button {
+  height: 60%;
+  background-color: #9e6dc2;
+  border-style: none;
+  width: 20%;
+  border-radius: 0px 5px 5px 0px;
+}
+
+header .header-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 4vh 20vh;
+}
+
+header .header-section .header-section-text {
+  width: 45%;
+}
+
+header .header-section .header-section-text h2 {
+  color: #9e6dc2;
+  font-size: clamp(3vh, 4vh, 4vh);
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 2vh;
+}
+
+header .header-section .header-section-text h4 {
+  color: #fbf6ff;
+  font-size: clamp(1vh, 1.7vh, 2vh);
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 2vh;
+}
+
+header .header-section .header-section-text h3 a {
+  text-decoration: none;
+  color: #9e6dc2;
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(1vh, 1.7vh, 2vh);
+}
+
+header .header-section .header-section-image img {
+  height: 35vh;
+}
+
+main .section-1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  padding: 5vh 20vh;
+}
+
+main .section-1 .grid-item-1 {
+  height: 100%;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1 / span 2;
+}
+
+main .section-1 .grid-item-1 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.7vh;
+  margin: 10px 0;
+}
+
+main .section-1 .grid-item-1 h3 {
+  color: #9e6dc2;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5vh;
+}
+
+main .section-1 .grid-item-1 img {
+  height: 35vh;
+}
+
+main .section-1 .grid-item-2 {
+  border-bottom: 3px solid #fbf6ff;
+}
+
+main .section-1 .grid-item-2 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.7vh;
+  margin: 10px 0;
+}
+
+main .section-1 .grid-item-2 h3 {
+  color: #9e6dc2;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5vh;
+}
+
+main .section-1 .grid-item-3 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.7vh;
+  margin: 10px 0;
+}
+
+main .section-1 .grid-item-3 h3 {
+  color: #9e6dc2;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5vh;
+}
+
+main .section-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5vh 20vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .section-2 .flex-item-1 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.7vh;
+  margin: 10px 0;
+}
+
+main .section-2 .flex-item-1 h3 {
+  color: #9e6dc2;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5vh;
+}
+
+main .section-2 .flex-item-1 img {
+  height: 35vh;
+}
+
+main .section-2 .flex-item-2 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.7vh;
+  margin: 10px 0;
+}
+
+main .section-2 .flex-item-2 h3 {
+  color: #9e6dc2;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5vh;
+}
+
+main .section-2 .flex-item-2 img {
+  height: 35vh;
+}
+
+main .section-2 .flex-item-3 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.7vh;
+  margin: 10px 0;
+}
+
+main .section-2 .flex-item-3 h3 {
+  color: #9e6dc2;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5vh;
+}
+
+main .section-2 .flex-item-3 img {
+  height: 35vh;
+}
+/*# sourceMappingURL=styles.css.map */
